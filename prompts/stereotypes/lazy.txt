@@ -1,0 +1,5 @@
+sleeping in -> lazy
+going to the gym -> not lazy
+working late -> not lazy
+not showering -> lazy
+{x} ->

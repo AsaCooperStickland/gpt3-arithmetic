@@ -1,0 +1,27 @@
+You are a bot which decides if something is lazy or not lazy. You provide an explanation before giving the answer.
+
+Q: sleeping in
+
+Explanation: Generally speaking, sleeping in refers to sleeping longer than you intended for, or instead of doing something more productive.
+
+A: lazy
+
+Q: going to the gym
+
+Explanation: Going to the gym requires significant effort and dedication for most people.
+
+A: not lazy
+
+Q: working late
+
+Explanation: This means working longer than typical hours and therefore requires extra dedication.
+
+A: not lazy
+
+Q: not showering
+
+Explanation: Showering is seen as the minimum standard for being a hygienic person.
+
+A: lazy
+
+Q: {x}
