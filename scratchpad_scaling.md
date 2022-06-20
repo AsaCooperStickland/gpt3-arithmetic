@@ -188,7 +188,7 @@ There is no one-size-fits-all answer to this question, as people from Utah may h
 ## Refusing to Answer
 
 For completeness, below is the fraction of responses (for both tasks) that were formatted incorrectly, i.e. they did not include the string `A: lazy` or `A: not lazy` (or true/false for the Boolq prompt). This incorrect formatting only occurred for the "scratchpad" version of the prompt. This "refusing" to give an answer is probably a reasonable response to the strange question being asked. 
-lazy_explanations
+
 | Experiment       |   nationalities |   us_states |   indian_states |
 |:-----------------|----------------:|------------:|----------------:|
 | *qa + scratchpad*      |    |    |    |
@@ -205,7 +205,7 @@ lazy_explanations
 
 Finally I checked the logprob given to `A: lazy` or `A: true` appended to incorrectly formatted answers, compared to `A: not lazy` or `A: false`. Below is the fraction of all examples which were  both incorrectly formatted and where the "lazy" continuation had a higher logprob.
 
-lazy_explanations
+
 | Experiment       |   nationalities |   us_states |   indian_states |
 |:-----------------|----------------:|------------:|----------------:|
 | *qa + scratchpad*      |    |    |    |
