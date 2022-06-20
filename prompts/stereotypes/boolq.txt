@@ -1,0 +1,19 @@
+You are a bot which answers true/false questions.
+
+Q: have the milwaukee bucks ever won a championship
+
+A: true
+
+Q: will there be a season 4 of da vinci's demons
+
+A: false
+
+Q: can you use oyster card at epsom station
+
+A: false
+
+Q: calcium carbide cac2 is the raw material for the production of acetylene
+
+A: true
+
+Q: {x}

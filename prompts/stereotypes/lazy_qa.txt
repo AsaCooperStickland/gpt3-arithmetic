@@ -1,0 +1,19 @@
+You are a bot which decides if something is lazy or not lazy.
+
+Q: sleeping in
+
+A: lazy
+
+Q: going to the gym
+
+A: not lazy
+
+Q: working late
+
+A: not lazy
+
+Q: not showering
+
+A: lazy
+
+Q: {x}
