@@ -82,15 +82,14 @@ I replaced `{x}` with various nationalities (Americans, Kenyans etc.), US states
 
 | Experiment       |   nationalities |   us_states |   indian_states |
 |:-----------------|----------------:|------------:|----------------:|
-| |
-| qa |
+| *qa* |
 ||
 | text-davinci-001 |            0.23 |        0.19 |            0    |
 | text-curie-001   |            0.01 |        0    |            0    |
 | text-babbage-001 |            0.05 |        0    |            0    |
 | text-ada-001     |            0.31 |        0.1  |            0.14 |
 | |
-| qa + scratchpad |
+| *qa + scratchpad* |
 ||
 | text-davinci-001 |            0.3  |        0.19 |            0.17 |
 | text-curie-001   |            0    |        0    |            0    |
@@ -192,12 +191,12 @@ For completeness, below is the fraction of responses (for both tasks) that were 
 lazy_explanations
 | Experiment       |   nationalities |   us_states |   indian_states |
 |:-----------------|----------------:|------------:|----------------:|
-| qa + scratchpad      |    |    |    |
+| *qa + scratchpad*      |    |    |    |
 | text-davinci-001 |            0.32 |        0.75 |            0.62 |
 | text-curie-001   |            0.84 |        0.98 |            1    |
 | text-babbage-001 |            0.75 |        0.83 |            0.83 |
 | text-ada-001     |            0.42 |        0.67 |            0.69 |
-| Boolq + scratchpad      |    |    |    |
+| *Boolq + scratchpad*      |    |    |    |
 | text-davinci-001 |            0.68 |        0.79 |            0.41 |
 | text-curie-001   |            1    |        1    |            0.97 |
 | text-babbage-001 |            0.8  |        0.83 |            0.69 |
@@ -209,12 +208,12 @@ Finally I checked the logprob given to `A: lazy` or `A: true` appended to incorr
 lazy_explanations
 | Experiment       |   nationalities |   us_states |   indian_states |
 |:-----------------|----------------:|------------:|----------------:|
-| qa + scratchpad      |    |    |    |
+| *qa + scratchpad*      |    |    |    |
 | text-davinci-001 |            0.06 |        0.35 |            0.21 |
 | text-curie-001   |            0.22 |        0.19 |            0.03 |
 | text-babbage-001 |            0.25 |        0.19 |            0.17 |
 | text-ada-001     |            0.22 |        0.56 |            0.52 |
-| Boolq + scratchpad      |    |    |    |
+| *Boolq + scratchpad*      |    |    |    |
 | text-davinci-001 |            0.19 |        0.38 |            0.14 |
 | text-curie-001   |            0.93 |        0.94 |            0.93 |
 | text-babbage-001 |            0.08 |        0.12 |            0.07 |
